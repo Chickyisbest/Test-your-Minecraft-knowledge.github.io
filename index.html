@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap">
+    <title>Quiz App v1.0</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="header">
+        <h1> How much do you know about Minecraft Entities? </h1>
+    </div>
+
+    <div class="quiz-container">
+
+        <!-- Progress bar-->
+        <div class="progress-bar-container" id="progress-bar-container">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+
+        <!-- Question label -->
+        <div class="question" id="question">
+            Questions will be displayed here. Click the "start" button to begin the quiz!
+        </div>
+         
+        <!-- options -->
+        <div class="option-container" id="option-container">
+        
+        </div>
+
+        <!-- Score label -->
+        <div class="score" id="score">
+            <p> You scored 0 point(s) </p>
+        </div>
+            
+        <button class="start-btn" id="start-btn"> Start </button>
+    </div>
+
+    <div class="timer" id="timer">
+        <span id="countdownText"> 10 </span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
